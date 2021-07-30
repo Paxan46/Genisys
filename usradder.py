@@ -91,7 +91,7 @@ for user in users:
         user_to_add = client.get_input_entity(user['username'])
         client(InviteToChannelRequest(entity, [user_to_add]))
         usr_id = user['user_id']
-        print(f'{attempt}{g} Adding {usr_id}{rs}')
+        print(f'{attempt}{g} Paxan {usr_id}{rs} Userler bu Qrupa Elave Olunur --> {group_name}{rs}\n')
         print(f'{sleep}{g} Sleep 20s{rs}')
         time.sleep(20)
     except PeerFloodError:
